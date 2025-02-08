@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    padding: 35px;
+  }
+  p{
+    padding:10px;
+  }
+/* Conteneur parent pour centrer les boutons */
+.container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.center-container {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: 'Playfair Display', sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.button-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* Boutons Primaires */
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #26d0ce 51%,
+    #1a2980 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: 2px dotted rgb(255, 255, 255);
+  color: white;
+  box-shadow: 0 0 20px #0000004a;
+  border-radius: 10px;
+  display: inline-block;
+}
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+/* Mark */
+mark {
+    padding: 2px 15px;
+    border-radius: 25px;
+    background-color: rgb(223, 224, 225);
+    border: dotted rgb(51, 44, 92) 1px;
+  }
