@@ -8,6 +8,9 @@
     min-height: 100vh;
     padding: 35px;
   }
+  section{
+  margin-top: 100px;
+  }
   p{
     padding:10px;
   }
