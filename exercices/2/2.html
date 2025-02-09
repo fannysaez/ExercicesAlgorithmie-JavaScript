@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>Exercice 2</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+        <h1>Exercices 2</h1>
+      </section>
+
+      <section class="center-exos-container">
+        <p>
+          Faire une
+          <mark
+            >fonction qui prend en paramètre un prix HT unitaire d’un produit,
+            et son nombre de produit</mark
+          >. On veut connaitre le <b>total TTC.</b>
+        </p>
+      </section>
+
+      <section class="center-container">
+        <p>
+          J'ai créer une fonction qui calcule le total TTC à partir du prix HT
+          unitaire<br />
+          et de la quantité d'un produit<br />
+          <mark>Taux de TVA est de 20%</mark>
+        </p>
+
+        <p>
+          Cette fonction <mark>calcTotalTTC</mark> permet de calculer le prix
+          total toutes taxes comprises (TTC) en utilisant le prix hors taxe (HT)
+          unitaire et la quantité de produits. Le taux de TVA utilisé est de 20
+          %.
+        </p>
+        <p>
+          J'ai déclaré la constante
+          <mark>tauxTVA</mark>
+          avec la valeur
+          <mark>0.2</mark>
+          qui correspond à 20%.
+          <br />
+          <br />
+          La constante
+          <mark>totalHT</mark>
+          j'ai multiplié le prix HT par la quantité afin de calculer le total
+          hors taxes.
+          <mark>totalTTC</mark>
+          une formule pour ajouter la TVA au total HT
+          <mark>(1 + tauxTVA)</mark>
+          <br />
+          J'ai utilisé la méthode suivante
+          <mark>.toFixed(2)</mark>
+          afin de retourner le total TTC arrondi à 2 décimales.
+        </p>
+      </section>
+
+      <section class="button-container">
+        <a class="btn-grad" href="../../index.html">Retour</a>
+      </section>
+    </main>
+
+    <script src="/exercices/2/script2.js"></script>
+  </body>
+</html>
