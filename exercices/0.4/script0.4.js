@@ -1,10 +1,10 @@
 
 //1- Déclaré deux variables, c'est à dire ! une variable age et une variable height (mesure)
-let age1 = 38;
-let height1 = "160";
+let age = 38;
+let height = "160";
 
 //2- Condition qui permet de vérifier :
-if(age1 > 18 && height1 > 140){
+if(age >= 18 && height >= 140){
     console.log("Je peux rentrer dans le manège");
 }
 else {
