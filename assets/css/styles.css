@@ -14,7 +14,7 @@
   p{
     padding:10px;
   }
-/* Conteneur parent pour centrer les boutons */
+
 .container {
   text-align: center;
   margin-bottom: 50px;
@@ -27,11 +27,26 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 35px;
 }
+
+.center-exos-container {
+  display: block; 
+  width: fit-content; 
+  text-align: center;
+  margin: 20px auto; 
+  margin-bottom: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 35px;
+  border: 2px dotted #3498db;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
 .button-container {
   text-align: center;
   margin-bottom: 50px;
 }
-/* Boutons Primaires */
+/* Boutons*/
 
 .btn-grad {
   background-image: linear-gradient(
